@@ -31,7 +31,7 @@ async def process_input(bot, message, user_prompt):
 
   # Log the message, user, and channel it was sent in
   print(
-      f"Message from {message.author}: {user_prompt} in {message.channel}. Response: {gpt_response}"
+      f"Message from {message.author}: \"{user_prompt}\" in {message.channel}. Response: {gpt_response}"
   )
 
   # Respond to the user
