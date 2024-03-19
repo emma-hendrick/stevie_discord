@@ -4,3 +4,5 @@ pyproject.toml
 replit.nix
 __pycache__
 .env
+*.log
+*.pid
